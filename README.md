@@ -1,4 +1,4 @@
-<h1 align="center">Проект по анализу раскладок ЙЦУКЕН и ВЫЗОВ<a href="https://daniilshat.ru/" target="_blank"></a> 
+<h1 align="center">Проект по анализу раскладок ЙЦУКЕН и ВЫЗОВ></a> 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 ![цукен_раскладка]([http://url/to/img.png](https://github.com/user-attachments/assets/377457b4-b77a-437f-b427-f01c2233b906))
 ![цукен_раскладка](https://github.com/user-attachments/assets/377457b4-b77a-437f-b427-f01c2233b906)
