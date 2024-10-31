@@ -1,4 +1,4 @@
-<h1 align="center">Проект по анализу раскладок ЙЦУКЕН и ВЫЗОВ<a href="https://daniilshat.ru/" target="_blank">Daniil</a> 
+<h1 align="center">Проект по анализу раскладок ЙЦУКЕН и ВЫЗОВ<a href="https://daniilshat.ru/" target="_blank"></a> 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <h2>Состав команлы проекта ШНУРЫ</h2>
 <h3>Шитов Егор - тимлид </h3>
