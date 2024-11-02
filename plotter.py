@@ -31,8 +31,6 @@ def plot_finger_load_comparison_horizontal(finger_loads_ycu, finger_loads_vyzov)
     fingers = list(finger_loads_ycu.keys())
     loads_ycu = [finger_loads_ycu[finger] for finger in fingers]
     loads_vyzov = [finger_loads_vyzov[finger] for finger in fingers]
-    plt.style.use ('seaborn- whitegrid')
-    plt.gcf().set_facecolor('#fcfcee')
     
     # Построение горизонтальной сравнительной гистограммы
     y = range(len(fingers))  # позиции для каждого пальца
