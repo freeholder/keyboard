@@ -12,7 +12,7 @@ def main():
     finger_loads_ycu, finger_loads_vyzov = analyze_finger_loads(text, keylout_dd, keylout_shift)
     
     # Построение вертикальной сравнительной гистограммы нагрузок на пальцы
-    plot_finger_load_comparison(finger_loads_ycu, finger_loads_vyzov)
+    #plot_finger_load_comparison(finger_loads_ycu, finger_loads_vyzov)
     
     # Построение горизонтальной сравнительной гистограммы нагрузок на пальцы
     plot_finger_load_comparison_horizontal(finger_loads_ycu, finger_loads_vyzov)
