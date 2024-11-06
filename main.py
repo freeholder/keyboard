@@ -1,3 +1,8 @@
+"""
+Вызывает функции analyze_finger_loads, plot_finger_load_comparison_horizontal
+"""
+
+
 from utils import load_text
 from analyze import analyze_finger_loads
 from plotter import plot_finger_load_comparison, plot_finger_load_comparison_horizontal
