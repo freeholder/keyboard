@@ -1,8 +1,21 @@
+"""
+Функции plot_finger_load_comparison и plot_finger_load_comparison_horizontal
+"""
+
 import matplotlib.pyplot as plt
 
 def plot_finger_load_comparison(finger_loads_ycu, finger_loads_vyzov):
-    """
+   """
     Строит вертикальную сравнительную гистограмму нагрузок на каждый палец для раскладок ЙЦУКЕН и ВЫЗОВ.
+
+    Параметры:
+    - finger_loads_ycu: словарь с частотой нажатий для каждой буквы в раскладке ЙЦУКЕН. 
+                        Ключи - названия пальцев, значения - частота нажатий.
+    - finger_loads_vyzov: словарь с частотой нажатий для каждой буквы в раскладке ВЫЗОВ. 
+                          Ключи - названия пальцев, значения - частота нажатий.
+
+    Гистограмма строится в виде двух вертикальных столбцов для каждой из раскладок,
+    позволяя визуально сравнить нагрузку на пальцы.
     """
     fingers = list(finger_loads_ycu.keys())
     loads_ycu = [finger_loads_ycu[finger] for finger in fingers]
@@ -25,8 +38,17 @@ def plot_finger_load_comparison(finger_loads_ycu, finger_loads_vyzov):
     plt.show()
 
 def plot_finger_load_comparison_horizontal(finger_loads_ycu, finger_loads_vyzov):
-    """
+     """
     Строит горизонтальную сравнительную гистограмму нагрузок на каждый палец для раскладок ЙЦУКЕН и ВЫЗОВ.
+
+    Параметры:
+    - finger_loads_ycu: словарь с частотой нажатий для каждой буквы в раскладке ЙЦУКЕН. 
+                        Ключи - названия пальцев, значения - частота нажатий.
+    - finger_loads_vyzov: словарь с частотой нажатий для каждой буквы в раскладке ВЫЗОВ. 
+                          Ключи - названия пальцев, значения - частота нажатий.
+
+    Гистограмма строится в виде двух горизонтальных полос для каждой из раскладок,
+    позволяя визуально сравнить нагрузку на пальцы.
     """
     fingers = list(finger_loads_ycu.keys())
     loads_ycu = [finger_loads_ycu[finger] for finger in fingers]
